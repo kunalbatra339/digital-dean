@@ -3,7 +3,7 @@ import axios from 'axios';
 import { BookOpen, BrainCircuit, Camera, Send, CheckCircle, XCircle, Upload, Loader } from 'lucide-react';
 import './App.css'; 
 
-const API_URL = "http://127.0.0.1:5000";
+const API_URL = "https://digital-dean.onrender.com";
 
 function App() {
   const [activeTab, setActiveTab] = useState('tutor');
